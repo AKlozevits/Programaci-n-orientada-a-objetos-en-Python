@@ -1,4 +1,5 @@
-#Ejercicio PHYTON en Visual Studio: Herencia de clases
+#Ejercicio PHYTON en Visual Studio: Herencia de clases y sobrescribir. 
+#Usé la clase Persona en la clase Deportista, y sobrescribí usando def __init__ en ambas.
 
 #DEFINICIÓN DE CLASES: Es el esqueleto del programa principal. 
 #El CÓDIGO PRINCIPAL recurrirá a estos cimientos, fundamentados en clases y subclases: 
