@@ -1,0 +1,11 @@
+class Persona:
+    def __init__(self): #método 1 : define los atributos del objeto persona (Juan, 18)
+        self.edad = 18
+        self.nombre = "Juan"
+        print ("Se ha creado a", self.nombre, "de", self.edad)
+    
+    def hablar(self, palabras): #Método para que Juan "hable"
+        print (self.nombre, ":", palabras)
+
+juan = Persona()                       #Definición del objeto juan desde el método self contenido en la clase Personna
+juan.hablar("Hola, estoy hablando")    #Ejecución del método hablar
