@@ -1,0 +1,15 @@
+#Creación de instancia en método constructor
+
+class Persona:
+    def __init__(self, edad, nombre): #directamente la clase Persona se construye con el método self que toma edad, nombre de los objetos que vayamos declarando (Juan y Luis)
+        self.edad = edad
+        self.nombre = nombre
+        print ("Se ha creado a", self.nombre, "de", self.edad)
+    
+    def hablar(self, palabras): #método para que la Persona "hable"
+        print (self.nombre, ":", palabras)
+
+juan = Persona("22", "Juan")                       
+juan.hablar("Hola, soy Juan y estoy hablando")    
+luis = Persona("18", "Luis")                       
+luis.hablar("Hola, soy Luis y estoy hablando") 
