@@ -1,4 +1,5 @@
 #Creación de instancia en método constructor
+#https://www.youtube.com/watch?v=7ap89MQU8fA
 
 class Persona:
     def __init__(self, edad, nombre): #directamente la clase Persona se construye con el método self que toma edad, nombre de los objetos que vayamos declarando (Juan y Luis)
