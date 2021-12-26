@@ -1,3 +1,5 @@
+#Link where you can find the sw for data base visualization
+#https://github.com/sqlitebrowser/sqlitebrowser/releases?page=1
 
 from tkinter import *
 
