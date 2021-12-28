@@ -4,7 +4,7 @@
 from tkinter import *
 
 class Interfaz:
-    def __init__(self, contenedor):
+    def __init__(self, contenedor): #en este caso, def es un método, porque está asociado a una clase. Cuando no está asociado a una clase, se conoce como función.
         self.textoE3=StringVar()
          
         contenedor.title(title)
